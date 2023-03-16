@@ -1,0 +1,13 @@
+Aplicativos:
+  - Aplicativo:
+    Nome: Edge
+    Caminho: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+  - Aplicativo:
+    Nome: Teste1
+    Caminho: C:\Program Files (x86)\teste
+  - Aplicativo:
+    Nome: Teste2
+    Caminho: C:\Program Files (x86)\teste
+  - Aplicativo:
+    Nome: Teste3
+    Caminho: C:\Program Files (x86)\teste
