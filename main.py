@@ -1,10 +1,14 @@
 
 import keyboard
 import funçoes
-print('§§§§§LAB a1§§§§§')
+import searchapp
+print('§§§§§LAB a3§§§§§')
 while True:
     a = input('Digite algo:')
     if 'sair' in a:
         break
-    funçoes.abrir(a)
-    funçoes.pesquisar(a)
+    elif 'adicionar' in a:
+        searchapp.adicionar()
+    else:
+        funçoes.abrir(a)
+        funçoes.pesquisar(a)
