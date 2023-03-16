@@ -1,13 +1,10 @@
 
 import keyboard
 import funçoes
+print('§§§§§LAB a1§§§§§')
 while True:
     a = input('Digite algo:')
-    if a == 'parar':
+    if 'sair' in a:
         break
-    elif 'abrir' in a:
-        funçoes.abrir(a)
-    elif 'pesquisar' in a:
-        funçoes.pesquisar(a)
-    else:
-        print('Entrada inválida')
+    funçoes.abrir(a)
+    funçoes.pesquisar(a)
