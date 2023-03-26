@@ -2,7 +2,7 @@
 import keyboard
 import funçoes
 import searchapp
-print('§§§§§LAB a4§§§§§')
+print('§§§§§LAB a5§§§§§')
 while True:
     a = input('Digite algo:')
     if 'sair' in a:

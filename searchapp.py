@@ -22,14 +22,16 @@ def adicionar_aplicativo(nome, caminho):
     with open('path.yml', 'w') as f:
         yaml.safe_dump(data, f, default_flow_style=False)
 def adicionar():
-    caminho = encontrar_caminho(input('Aplicativo não encontrado, coloque o nome dele para realizar uma busca:'))
+    caminho = encontrar_caminho(input('Pesquisar por:'))
     if caminho is not None:
         print('Aplicativo encontrado com sucesso!')
         nome = input('Adicione o nome:')
         executavel = encontrar_executavel(caminho)
         adicionar_aplicativo(nome, executavel)
+        print('Adicionado com sucesso com o nome de '+nome)
     else:
         print('Aplicativo não encontrado, adicione manualmente')
         x = input('Nome:')
         y = input('Caminho:')
         adicionar_aplicativo(x, y)
+        print('Adicionado com sucesso com o nome de '+x)
