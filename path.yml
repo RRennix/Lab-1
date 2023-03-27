@@ -11,3 +11,6 @@ Aplicativos:
 - Aplicativo: null
   Caminho: C:\Users\renan\AppData\Local\Programs\gdlauncher\GDLauncher.exe
   Nome: minecraft
+- Aplicativo: null
+  Caminho: C:\Program Files (x86)\Steam\steamapps\common\TheRoom\TheRoom.exe
+  Nome: the room
